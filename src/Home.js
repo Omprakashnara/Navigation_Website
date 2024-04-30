@@ -28,15 +28,15 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
       <header className="header">
         <nav className="navbar">
           <h2 className="logo"><a href="#">Navigate</a></h2>
-          <input type="checkbox" id="menu-toggle" />
-          <label htmlFor="menu-toggle" id="hamburger-btn">
+          <input id="menu-toggle" />
+          <label htmlFor="menu-toggle" >
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
               <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
             </svg>
           </label>
           
           <div className='buttons'>
-          <button onClick={clickedLogin}><a href="#" className="signup">Login</a></button>
+          <button onClick={clickedLogin}><a  className="signup">Login</a></button>
             <button onClick={clickedSignin}><a href="#" className="signup">Sign Up</a></button>
           </div>
         </nav>
