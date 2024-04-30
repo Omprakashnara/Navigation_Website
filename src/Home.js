@@ -13,10 +13,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
        height:'100%',
         
     
-      function clickedLogin(){
-          
-          onNavigate('LoginPage')
-      }
+      
       function clickedSignin(){
        
         onNavigate('SignUp')
