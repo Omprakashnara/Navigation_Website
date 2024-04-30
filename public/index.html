@@ -1,42 +1,17 @@
-<!DOCTYPE html>
-<html lang=
-<head>
-  <meta charset=>
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title>Sign Up</title>
-  <link rel="stylesheet">
-</head>
-<body>
-  <div>
-    <h2 class='title'>Signup</h2>
-    <form>
-      <div class="form-group">
-        for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
-      </div>
-      <div class="form-group">
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
-      </div>
-      <div class="form-group">
-        <label for="email">Email:</label><br/>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="phoneNumber">Phone Number:</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber" minlength="10" maxlength="10" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
-        <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
-      </div>
-      <div class="error"></div>
-      <button class="button1" type="submit">Submit</button>
-    </form>
-  </div>
-</body>
-</html>
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import { ChakraProvider, theme } from '@chakra-ui/react'
+import './index.css';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <ChakraProvider theme={theme}>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
+
+
