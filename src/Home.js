@@ -9,7 +9,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
        positon:'fixed',
        top:'0',
        left:'0',
-       width:'500%',
+       width:'100%',
        height:'100%',
         
       };
@@ -36,7 +36,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
           </label>
           
           <div className='buttons'>
-          <button onClick={clickedLogin}><a  className="signup">Login</a></button>
+          <button onClick={clickedLogin}><a href="#" className="signup">Login</a></button>
             <button onClick={clickedSignin}><a href="#" className="signup">Sign Up</a></button>
           </div>
         </nav>
