@@ -50,4 +50,4 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
   );
 }
 
-export default Home;
+
