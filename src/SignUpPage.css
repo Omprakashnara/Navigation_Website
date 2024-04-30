@@ -2,25 +2,25 @@ body {
   /*background-image: url('sign2.jpg'); Set background image */
   background-size: 70%; /* Cover the entire body with the background image */
   background-position: center; /* Center the background image */
-  height: 100vh; /* Set height to fill the viewport */
+  height: 700; /* Set height to fill the viewport */
   margin: 0; /* Remove default margin */
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   
 }
-.title{
+title{
   text-align: center;
   font-weight: bold;
-  margin-bottom: 10%;
+  margin-bottom: 10;
 }
 
 .signup-box {
   width: 400px; /* Set desired width */
   padding: 20px; /* Add padding for spacing */
-  background-color: #f0f0f0; /* Set background color */
-  border-radius: 10px; /* Add rounded corners */
-  box-shadow: 0 0 5px rgba(17, 1, 55, 0.1); /* Add a shadow for depth */
+  background-color: f0f0f0; /* Set background color */
+  border-radius: ; /* Add rounded corners */
+  box-shadow: 0 0 rgba(17, 1, 55, 0.1); /* Add a shadow for depth */
 
 }
 
