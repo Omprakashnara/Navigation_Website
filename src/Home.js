@@ -12,7 +12,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
        width:'100%',
        height:'100%',
         
-      };
+    
       function clickedLogin(){
           
           onNavigate('LoginPage')
