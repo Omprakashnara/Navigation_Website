@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import './stylesheet.css'; 
 
 function Home({onNavigate,HomeButton,setHomebutton}) {
 
@@ -12,8 +12,11 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
        width:'100%',
        height:'100%',
         
-    
-      
+      };
+      function clickedLogin(){
+          
+          onNavigate('LoginPage')
+      }
       function clickedSignin(){
        
         onNavigate('SignUp')
@@ -37,7 +40,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
             <button onClick={clickedSignin}><a href="#" className="signup">Sign Up</a></button>
           </div>
         </nav>
-    
+      </header>
       <section className="hero-section">
         <div className="hero">
           <h2>Discover and Explore</h2>
@@ -46,7 +49,5 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
     </div>
   );
 }
-
-
 
 export default Home;
