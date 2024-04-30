@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './stylesheet.css'; 
+
 
 function Home({onNavigate,HomeButton,setHomebutton}) {
 
@@ -40,7 +40,7 @@ function Home({onNavigate,HomeButton,setHomebutton}) {
             <button onClick={clickedSignin}><a href="#" className="signup">Sign Up</a></button>
           </div>
         </nav>
-      </header>
+    
       <section className="hero-section">
         <div className="hero">
           <h2>Discover and Explore</h2>
